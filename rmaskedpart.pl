@@ -1,6 +1,6 @@
 #! /usr/bin/perl
 
-$usage = "fasta-reformat.pl maskedfile number-of-positions-per-line\n";
+$usage = "rmaskedpart.pl maskedfile number-of-positions-per-line\n";
 
 # this is for removing the masked portion or sequencing gaps 
 
