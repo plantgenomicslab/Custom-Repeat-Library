@@ -1,4 +1,4 @@
-#!/usr/bin/env perl -w
+#!/usr/bin/env perl 
  
 # transposon_blast_parse.pl
 # This script will parse the results of the unknown elements of RepeatModeler blasted against the transposon database into two files, one with identified elements from blast hits and the other of still unknown elements. 

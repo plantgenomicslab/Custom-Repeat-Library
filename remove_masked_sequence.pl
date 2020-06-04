@@ -1,4 +1,4 @@
-#!/usr/bin/env perl -w
+#!/usr/bin/env perl 
  
 # remove_masked_sequence.pl
 # This script will remove completely masked elements from element libraries. 

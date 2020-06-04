@@ -1,4 +1,4 @@
-#!/usr/bin/env perl -w
+#!/usr/bin/env perl 
  
 # ltr_library.pl
 # This script is create a fasta file containing the lLTRs of candidate LTRs for the creation of a LTR + Mite.lib to mask the internal sequences found in the .outinner file from LTRHarvest.

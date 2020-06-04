@@ -1,4 +1,4 @@
-#!/usr/bin/env perl -w
+#!/usr/bin/env perl 
  
 # CRL_final_blast_parse.pl
 # This parses the blastp output of elements against uniref. Elements with significant hits to genes are removed, along with 50 bp upstream and downstream of the blast hit. Remaining sequence that is less than 50 bp is removed completely. Output will be those elements with no significant blast hits and remaining sequence from elements with blast hits. 

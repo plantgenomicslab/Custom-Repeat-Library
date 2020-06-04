@@ -1,4 +1,4 @@
-#!/usr/bin/env perl -w
+#!/usr/bin/env perl 
  
 # CRL_Step5.pl
 # This is the second step and creates the final set of exemplar elements. 

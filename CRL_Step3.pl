@@ -1,4 +1,4 @@
-#!/usr/bin/env perl -w
+#!/usr/bin/env perl 
 
 # CRL_Step3.pl
 # This script take the fasta files containing 50 bp upstream and downstream of each element, and aligns them with MUSCLE. Those 50bp alignments not passing the filters specified by the user will be removed from the pipeline. The output is a fasta file containing filtered elements for the next step of the pipeline. 

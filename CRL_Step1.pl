@@ -1,4 +1,4 @@
-#!/usr/bin/env perl -w
+#!/usr/bin/env perl 
  
 # CRL_Step1.pl
 # This script detects primer binding site (PBB) and RR_tracts from the outputs of LTR_Harvest and LTR_Digest. 

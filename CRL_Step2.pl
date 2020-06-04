@@ -1,4 +1,4 @@
-#!/usr/bin/env perl -w
+#!/usr/bin/env perl 
  
 # CRL_Step2.pl
 # This script will take the seqfile.out file, remove elements containing 50 or more Ns, identify specific genomic regions containing LTR repeats in a whole genome sequence, find 50 bp upstream and downstream of each element within the genome sequence, and write it to a new fasta file. 
