@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#!/usr/bin/env perl
  
 $usage = "cleanRM.pl  seqfile.outinner99.out  seqfile.outinner99.masked\n";
 

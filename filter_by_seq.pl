@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl -w
 # This script will read one fasta file and write to a new fasta file just the identifer of those sequences bigger than a specific length. 
 # Megan Bowman
 # 15 November 2013

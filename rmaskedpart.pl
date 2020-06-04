@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#!/usr/bin/env perl
 
 $usage = "rmaskedpart.pl maskedfile number-of-positions-per-line\n";
 

@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#!/usr/bin/env perl
  
 $usage = "rmshortinner.pl  seqfile.outinner99.unmasked minimum_length_inner (suggested value 50 bp)\n";
 

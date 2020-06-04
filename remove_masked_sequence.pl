@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl -w
  
 # remove_masked_sequence.pl
 # This script will remove completely masked elements from element libraries. 
@@ -40,7 +40,16 @@ my $seqout = Bio::SeqIO->new (-format => 'fasta', -file => ">$outfile");
 while (my $seqobj1 = $repin->next_seq()) {
     my $repseq = $seqobj1->seq();
     $seq_length = length($repseq);
+    if ( $seq_length == 0 ) {
+        print STDERR "WARNING: zero-length sequence: " + $repseq + "\n";
+        continue;
+    }
     $sub_seq = $seq_length * .9;
+    if ( $sub_seq == 0 ) {
+        print STDERR "WARNING: zero-length sub-sequence: " + $repseq + "\n";
+        continue;
+    }
+    $sub_count = 0;
     while ($repseq =~ /([Nn]+)/g) { 
 	$n_count += length($1);
 	$sub_count = $n_count * .9;

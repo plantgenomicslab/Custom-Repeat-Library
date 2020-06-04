@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl -w
  
 # CRL_Step4.pl
 # This is the first step for creating exemplar elements. 

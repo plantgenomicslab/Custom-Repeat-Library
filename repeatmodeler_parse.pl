@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl -w
 # This script will parse the output of RepeatModeler into the unknown elements and those with identification.
 # Megan Bowman
 # 09 April 2014

@@ -1,4 +1,4 @@
-#!/usr/bin/perl -w
+#!/usr/bin/env perl -w
  
 # outinner_blastx_parse.pl
 # This script will parse the blastx results of the seqfile.outinner sequence against the transposon database and output those without hits to be used for downsteam steps.
